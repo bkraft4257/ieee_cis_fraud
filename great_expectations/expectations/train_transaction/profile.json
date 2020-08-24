@@ -1,0 +1,1806 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "train_transaction.profile",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": 649594,
+        "min_value": 531486
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_table_column_count_to_equal",
+      "kwargs": {
+        "value": 394
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "TransactionID",
+          "isFraud",
+          "TransactionDT",
+          "TransactionAmt",
+          "ProductCD",
+          "card1",
+          "card2",
+          "card3",
+          "card4",
+          "card5",
+          "card6",
+          "addr1",
+          "addr2",
+          "dist1",
+          "dist2",
+          "P_emaildomain",
+          "R_emaildomain",
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8",
+          "C9",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "D1",
+          "D2",
+          "D3",
+          "D4",
+          "D5",
+          "D6",
+          "D7",
+          "D8",
+          "D9",
+          "D10",
+          "D11",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "V1",
+          "V2",
+          "V3",
+          "V4",
+          "V5",
+          "V6",
+          "V7",
+          "V8",
+          "V9",
+          "V10",
+          "V11",
+          "V12",
+          "V13",
+          "V14",
+          "V15",
+          "V16",
+          "V17",
+          "V18",
+          "V19",
+          "V20",
+          "V21",
+          "V22",
+          "V23",
+          "V24",
+          "V25",
+          "V26",
+          "V27",
+          "V28",
+          "V29",
+          "V30",
+          "V31",
+          "V32",
+          "V33",
+          "V34",
+          "V35",
+          "V36",
+          "V37",
+          "V38",
+          "V39",
+          "V40",
+          "V41",
+          "V42",
+          "V43",
+          "V44",
+          "V45",
+          "V46",
+          "V47",
+          "V48",
+          "V49",
+          "V50",
+          "V51",
+          "V52",
+          "V53",
+          "V54",
+          "V55",
+          "V56",
+          "V57",
+          "V58",
+          "V59",
+          "V60",
+          "V61",
+          "V62",
+          "V63",
+          "V64",
+          "V65",
+          "V66",
+          "V67",
+          "V68",
+          "V69",
+          "V70",
+          "V71",
+          "V72",
+          "V73",
+          "V74",
+          "V75",
+          "V76",
+          "V77",
+          "V78",
+          "V79",
+          "V80",
+          "V81",
+          "V82",
+          "V83",
+          "V84",
+          "V85",
+          "V86",
+          "V87",
+          "V88",
+          "V89",
+          "V90",
+          "V91",
+          "V92",
+          "V93",
+          "V94",
+          "V95",
+          "V96",
+          "V97",
+          "V98",
+          "V99",
+          "V100",
+          "V101",
+          "V102",
+          "V103",
+          "V104",
+          "V105",
+          "V106",
+          "V107",
+          "V108",
+          "V109",
+          "V110",
+          "V111",
+          "V112",
+          "V113",
+          "V114",
+          "V115",
+          "V116",
+          "V117",
+          "V118",
+          "V119",
+          "V120",
+          "V121",
+          "V122",
+          "V123",
+          "V124",
+          "V125",
+          "V126",
+          "V127",
+          "V128",
+          "V129",
+          "V130",
+          "V131",
+          "V132",
+          "V133",
+          "V134",
+          "V135",
+          "V136",
+          "V137",
+          "V138",
+          "V139",
+          "V140",
+          "V141",
+          "V142",
+          "V143",
+          "V144",
+          "V145",
+          "V146",
+          "V147",
+          "V148",
+          "V149",
+          "V150",
+          "V151",
+          "V152",
+          "V153",
+          "V154",
+          "V155",
+          "V156",
+          "V157",
+          "V158",
+          "V159",
+          "V160",
+          "V161",
+          "V162",
+          "V163",
+          "V164",
+          "V165",
+          "V166",
+          "V167",
+          "V168",
+          "V169",
+          "V170",
+          "V171",
+          "V172",
+          "V173",
+          "V174",
+          "V175",
+          "V176",
+          "V177",
+          "V178",
+          "V179",
+          "V180",
+          "V181",
+          "V182",
+          "V183",
+          "V184",
+          "V185",
+          "V186",
+          "V187",
+          "V188",
+          "V189",
+          "V190",
+          "V191",
+          "V192",
+          "V193",
+          "V194",
+          "V195",
+          "V196",
+          "V197",
+          "V198",
+          "V199",
+          "V200",
+          "V201",
+          "V202",
+          "V203",
+          "V204",
+          "V205",
+          "V206",
+          "V207",
+          "V208",
+          "V209",
+          "V210",
+          "V211",
+          "V212",
+          "V213",
+          "V214",
+          "V215",
+          "V216",
+          "V217",
+          "V218",
+          "V219",
+          "V220",
+          "V221",
+          "V222",
+          "V223",
+          "V224",
+          "V225",
+          "V226",
+          "V227",
+          "V228",
+          "V229",
+          "V230",
+          "V231",
+          "V232",
+          "V233",
+          "V234",
+          "V235",
+          "V236",
+          "V237",
+          "V238",
+          "V239",
+          "V240",
+          "V241",
+          "V242",
+          "V243",
+          "V244",
+          "V245",
+          "V246",
+          "V247",
+          "V248",
+          "V249",
+          "V250",
+          "V251",
+          "V252",
+          "V253",
+          "V254",
+          "V255",
+          "V256",
+          "V257",
+          "V258",
+          "V259",
+          "V260",
+          "V261",
+          "V262",
+          "V263",
+          "V264",
+          "V265",
+          "V266",
+          "V267",
+          "V268",
+          "V269",
+          "V270",
+          "V271",
+          "V272",
+          "V273",
+          "V274",
+          "V275",
+          "V276",
+          "V277",
+          "V278",
+          "V279",
+          "V280",
+          "V281",
+          "V282",
+          "V283",
+          "V284",
+          "V285",
+          "V286",
+          "V287",
+          "V288",
+          "V289",
+          "V290",
+          "V291",
+          "V292",
+          "V293",
+          "V294",
+          "V295",
+          "V296",
+          "V297",
+          "V298",
+          "V299",
+          "V300",
+          "V301",
+          "V302",
+          "V303",
+          "V304",
+          "V305",
+          "V306",
+          "V307",
+          "V308",
+          "V309",
+          "V310",
+          "V311",
+          "V312",
+          "V313",
+          "V314",
+          "V315",
+          "V316",
+          "V317",
+          "V318",
+          "V319",
+          "V320",
+          "V321",
+          "V322",
+          "V323",
+          "V324",
+          "V325",
+          "V326",
+          "V327",
+          "V328",
+          "V329",
+          "V330",
+          "V331",
+          "V332",
+          "V333",
+          "V334",
+          "V335",
+          "V336",
+          "V337",
+          "V338",
+          "V339"
+        ]
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "isFraud"
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "isFraud",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_kl_divergence_to_be_less_than",
+      "kwargs": {
+        "column": "isFraud",
+        "partition_object": {
+          "values": [
+            0,
+            1
+          ],
+          "weights": [
+            0.9650099908558268,
+            0.03499000914417313
+          ]
+        },
+        "threshold": 0.6
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "TransactionID"
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "TransactionID",
+        "max_value": 2987001,
+        "min_value": 2986999
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "TransactionID",
+        "max_value": 3577540,
+        "min_value": 3577538
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "TransactionID",
+        "max_value": 3282270.5,
+        "min_value": 3282268.5
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_median_to_be_between",
+      "kwargs": {
+        "column": "TransactionID",
+        "max_value": 3282270.5,
+        "min_value": 3282268.5
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_quantile_values_to_be_between",
+      "kwargs": {
+        "allow_relative_error": false,
+        "column": "TransactionID",
+        "quantile_ranges": {
+          "quantiles": [
+            0.05,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+          ],
+          "value_ranges": [
+            [
+              3016526,
+              3016528
+            ],
+            [
+              3134634,
+              3134636
+            ],
+            [
+              3282269,
+              3282271
+            ],
+            [
+              3429903,
+              3429905
+            ],
+            [
+              3548011,
+              3548013
+            ]
+          ]
+        }
+      },
+      "meta": {
+        "BasicSuiteBuilderProfiler": {
+          "confidence": "very low"
+        }
+      }
+    }
+  ],
+  "meta": {
+    "BasicSuiteBuilderProfiler": {
+      "batch_kwargs": {
+        "data_asset_name": "train_transaction",
+        "datasource": "fraud__dir",
+        "path": "/Users/bkraft/data/fraud/train_transaction.csv"
+      },
+      "created_at": 1597515923.1966138,
+      "created_by": "BasicSuiteBuilderProfiler"
+    },
+    "citations": [
+      {
+        "batch_kwargs": {
+          "data_asset_name": "train_transaction",
+          "datasource": "fraud__dir",
+          "path": "/Users/bkraft/data/fraud/train_transaction.csv"
+        },
+        "batch_markers": {
+          "ge_load_time": "20200815T182456.312952Z"
+        },
+        "batch_parameters": null,
+        "citation_date": "20200815T182523.227866Z",
+        "comment": "BasicSuiteBuilderProfiler added a citation based on the current batch."
+      }
+    ],
+    "columns": {
+      "C1": {
+        "description": ""
+      },
+      "C10": {
+        "description": ""
+      },
+      "C11": {
+        "description": ""
+      },
+      "C12": {
+        "description": ""
+      },
+      "C13": {
+        "description": ""
+      },
+      "C14": {
+        "description": ""
+      },
+      "C2": {
+        "description": ""
+      },
+      "C3": {
+        "description": ""
+      },
+      "C4": {
+        "description": ""
+      },
+      "C5": {
+        "description": ""
+      },
+      "C6": {
+        "description": ""
+      },
+      "C7": {
+        "description": ""
+      },
+      "C8": {
+        "description": ""
+      },
+      "C9": {
+        "description": ""
+      },
+      "D1": {
+        "description": ""
+      },
+      "D10": {
+        "description": ""
+      },
+      "D11": {
+        "description": ""
+      },
+      "D12": {
+        "description": ""
+      },
+      "D13": {
+        "description": ""
+      },
+      "D14": {
+        "description": ""
+      },
+      "D15": {
+        "description": ""
+      },
+      "D2": {
+        "description": ""
+      },
+      "D3": {
+        "description": ""
+      },
+      "D4": {
+        "description": ""
+      },
+      "D5": {
+        "description": ""
+      },
+      "D6": {
+        "description": ""
+      },
+      "D7": {
+        "description": ""
+      },
+      "D8": {
+        "description": ""
+      },
+      "D9": {
+        "description": ""
+      },
+      "M1": {
+        "description": ""
+      },
+      "M2": {
+        "description": ""
+      },
+      "M3": {
+        "description": ""
+      },
+      "M4": {
+        "description": ""
+      },
+      "M5": {
+        "description": ""
+      },
+      "M6": {
+        "description": ""
+      },
+      "M7": {
+        "description": ""
+      },
+      "M8": {
+        "description": ""
+      },
+      "M9": {
+        "description": ""
+      },
+      "P_emaildomain": {
+        "description": ""
+      },
+      "ProductCD": {
+        "description": ""
+      },
+      "R_emaildomain": {
+        "description": ""
+      },
+      "TransactionAmt": {
+        "description": ""
+      },
+      "TransactionDT": {
+        "description": ""
+      },
+      "TransactionID": {
+        "description": ""
+      },
+      "V1": {
+        "description": ""
+      },
+      "V10": {
+        "description": ""
+      },
+      "V100": {
+        "description": ""
+      },
+      "V101": {
+        "description": ""
+      },
+      "V102": {
+        "description": ""
+      },
+      "V103": {
+        "description": ""
+      },
+      "V104": {
+        "description": ""
+      },
+      "V105": {
+        "description": ""
+      },
+      "V106": {
+        "description": ""
+      },
+      "V107": {
+        "description": ""
+      },
+      "V108": {
+        "description": ""
+      },
+      "V109": {
+        "description": ""
+      },
+      "V11": {
+        "description": ""
+      },
+      "V110": {
+        "description": ""
+      },
+      "V111": {
+        "description": ""
+      },
+      "V112": {
+        "description": ""
+      },
+      "V113": {
+        "description": ""
+      },
+      "V114": {
+        "description": ""
+      },
+      "V115": {
+        "description": ""
+      },
+      "V116": {
+        "description": ""
+      },
+      "V117": {
+        "description": ""
+      },
+      "V118": {
+        "description": ""
+      },
+      "V119": {
+        "description": ""
+      },
+      "V12": {
+        "description": ""
+      },
+      "V120": {
+        "description": ""
+      },
+      "V121": {
+        "description": ""
+      },
+      "V122": {
+        "description": ""
+      },
+      "V123": {
+        "description": ""
+      },
+      "V124": {
+        "description": ""
+      },
+      "V125": {
+        "description": ""
+      },
+      "V126": {
+        "description": ""
+      },
+      "V127": {
+        "description": ""
+      },
+      "V128": {
+        "description": ""
+      },
+      "V129": {
+        "description": ""
+      },
+      "V13": {
+        "description": ""
+      },
+      "V130": {
+        "description": ""
+      },
+      "V131": {
+        "description": ""
+      },
+      "V132": {
+        "description": ""
+      },
+      "V133": {
+        "description": ""
+      },
+      "V134": {
+        "description": ""
+      },
+      "V135": {
+        "description": ""
+      },
+      "V136": {
+        "description": ""
+      },
+      "V137": {
+        "description": ""
+      },
+      "V138": {
+        "description": ""
+      },
+      "V139": {
+        "description": ""
+      },
+      "V14": {
+        "description": ""
+      },
+      "V140": {
+        "description": ""
+      },
+      "V141": {
+        "description": ""
+      },
+      "V142": {
+        "description": ""
+      },
+      "V143": {
+        "description": ""
+      },
+      "V144": {
+        "description": ""
+      },
+      "V145": {
+        "description": ""
+      },
+      "V146": {
+        "description": ""
+      },
+      "V147": {
+        "description": ""
+      },
+      "V148": {
+        "description": ""
+      },
+      "V149": {
+        "description": ""
+      },
+      "V15": {
+        "description": ""
+      },
+      "V150": {
+        "description": ""
+      },
+      "V151": {
+        "description": ""
+      },
+      "V152": {
+        "description": ""
+      },
+      "V153": {
+        "description": ""
+      },
+      "V154": {
+        "description": ""
+      },
+      "V155": {
+        "description": ""
+      },
+      "V156": {
+        "description": ""
+      },
+      "V157": {
+        "description": ""
+      },
+      "V158": {
+        "description": ""
+      },
+      "V159": {
+        "description": ""
+      },
+      "V16": {
+        "description": ""
+      },
+      "V160": {
+        "description": ""
+      },
+      "V161": {
+        "description": ""
+      },
+      "V162": {
+        "description": ""
+      },
+      "V163": {
+        "description": ""
+      },
+      "V164": {
+        "description": ""
+      },
+      "V165": {
+        "description": ""
+      },
+      "V166": {
+        "description": ""
+      },
+      "V167": {
+        "description": ""
+      },
+      "V168": {
+        "description": ""
+      },
+      "V169": {
+        "description": ""
+      },
+      "V17": {
+        "description": ""
+      },
+      "V170": {
+        "description": ""
+      },
+      "V171": {
+        "description": ""
+      },
+      "V172": {
+        "description": ""
+      },
+      "V173": {
+        "description": ""
+      },
+      "V174": {
+        "description": ""
+      },
+      "V175": {
+        "description": ""
+      },
+      "V176": {
+        "description": ""
+      },
+      "V177": {
+        "description": ""
+      },
+      "V178": {
+        "description": ""
+      },
+      "V179": {
+        "description": ""
+      },
+      "V18": {
+        "description": ""
+      },
+      "V180": {
+        "description": ""
+      },
+      "V181": {
+        "description": ""
+      },
+      "V182": {
+        "description": ""
+      },
+      "V183": {
+        "description": ""
+      },
+      "V184": {
+        "description": ""
+      },
+      "V185": {
+        "description": ""
+      },
+      "V186": {
+        "description": ""
+      },
+      "V187": {
+        "description": ""
+      },
+      "V188": {
+        "description": ""
+      },
+      "V189": {
+        "description": ""
+      },
+      "V19": {
+        "description": ""
+      },
+      "V190": {
+        "description": ""
+      },
+      "V191": {
+        "description": ""
+      },
+      "V192": {
+        "description": ""
+      },
+      "V193": {
+        "description": ""
+      },
+      "V194": {
+        "description": ""
+      },
+      "V195": {
+        "description": ""
+      },
+      "V196": {
+        "description": ""
+      },
+      "V197": {
+        "description": ""
+      },
+      "V198": {
+        "description": ""
+      },
+      "V199": {
+        "description": ""
+      },
+      "V2": {
+        "description": ""
+      },
+      "V20": {
+        "description": ""
+      },
+      "V200": {
+        "description": ""
+      },
+      "V201": {
+        "description": ""
+      },
+      "V202": {
+        "description": ""
+      },
+      "V203": {
+        "description": ""
+      },
+      "V204": {
+        "description": ""
+      },
+      "V205": {
+        "description": ""
+      },
+      "V206": {
+        "description": ""
+      },
+      "V207": {
+        "description": ""
+      },
+      "V208": {
+        "description": ""
+      },
+      "V209": {
+        "description": ""
+      },
+      "V21": {
+        "description": ""
+      },
+      "V210": {
+        "description": ""
+      },
+      "V211": {
+        "description": ""
+      },
+      "V212": {
+        "description": ""
+      },
+      "V213": {
+        "description": ""
+      },
+      "V214": {
+        "description": ""
+      },
+      "V215": {
+        "description": ""
+      },
+      "V216": {
+        "description": ""
+      },
+      "V217": {
+        "description": ""
+      },
+      "V218": {
+        "description": ""
+      },
+      "V219": {
+        "description": ""
+      },
+      "V22": {
+        "description": ""
+      },
+      "V220": {
+        "description": ""
+      },
+      "V221": {
+        "description": ""
+      },
+      "V222": {
+        "description": ""
+      },
+      "V223": {
+        "description": ""
+      },
+      "V224": {
+        "description": ""
+      },
+      "V225": {
+        "description": ""
+      },
+      "V226": {
+        "description": ""
+      },
+      "V227": {
+        "description": ""
+      },
+      "V228": {
+        "description": ""
+      },
+      "V229": {
+        "description": ""
+      },
+      "V23": {
+        "description": ""
+      },
+      "V230": {
+        "description": ""
+      },
+      "V231": {
+        "description": ""
+      },
+      "V232": {
+        "description": ""
+      },
+      "V233": {
+        "description": ""
+      },
+      "V234": {
+        "description": ""
+      },
+      "V235": {
+        "description": ""
+      },
+      "V236": {
+        "description": ""
+      },
+      "V237": {
+        "description": ""
+      },
+      "V238": {
+        "description": ""
+      },
+      "V239": {
+        "description": ""
+      },
+      "V24": {
+        "description": ""
+      },
+      "V240": {
+        "description": ""
+      },
+      "V241": {
+        "description": ""
+      },
+      "V242": {
+        "description": ""
+      },
+      "V243": {
+        "description": ""
+      },
+      "V244": {
+        "description": ""
+      },
+      "V245": {
+        "description": ""
+      },
+      "V246": {
+        "description": ""
+      },
+      "V247": {
+        "description": ""
+      },
+      "V248": {
+        "description": ""
+      },
+      "V249": {
+        "description": ""
+      },
+      "V25": {
+        "description": ""
+      },
+      "V250": {
+        "description": ""
+      },
+      "V251": {
+        "description": ""
+      },
+      "V252": {
+        "description": ""
+      },
+      "V253": {
+        "description": ""
+      },
+      "V254": {
+        "description": ""
+      },
+      "V255": {
+        "description": ""
+      },
+      "V256": {
+        "description": ""
+      },
+      "V257": {
+        "description": ""
+      },
+      "V258": {
+        "description": ""
+      },
+      "V259": {
+        "description": ""
+      },
+      "V26": {
+        "description": ""
+      },
+      "V260": {
+        "description": ""
+      },
+      "V261": {
+        "description": ""
+      },
+      "V262": {
+        "description": ""
+      },
+      "V263": {
+        "description": ""
+      },
+      "V264": {
+        "description": ""
+      },
+      "V265": {
+        "description": ""
+      },
+      "V266": {
+        "description": ""
+      },
+      "V267": {
+        "description": ""
+      },
+      "V268": {
+        "description": ""
+      },
+      "V269": {
+        "description": ""
+      },
+      "V27": {
+        "description": ""
+      },
+      "V270": {
+        "description": ""
+      },
+      "V271": {
+        "description": ""
+      },
+      "V272": {
+        "description": ""
+      },
+      "V273": {
+        "description": ""
+      },
+      "V274": {
+        "description": ""
+      },
+      "V275": {
+        "description": ""
+      },
+      "V276": {
+        "description": ""
+      },
+      "V277": {
+        "description": ""
+      },
+      "V278": {
+        "description": ""
+      },
+      "V279": {
+        "description": ""
+      },
+      "V28": {
+        "description": ""
+      },
+      "V280": {
+        "description": ""
+      },
+      "V281": {
+        "description": ""
+      },
+      "V282": {
+        "description": ""
+      },
+      "V283": {
+        "description": ""
+      },
+      "V284": {
+        "description": ""
+      },
+      "V285": {
+        "description": ""
+      },
+      "V286": {
+        "description": ""
+      },
+      "V287": {
+        "description": ""
+      },
+      "V288": {
+        "description": ""
+      },
+      "V289": {
+        "description": ""
+      },
+      "V29": {
+        "description": ""
+      },
+      "V290": {
+        "description": ""
+      },
+      "V291": {
+        "description": ""
+      },
+      "V292": {
+        "description": ""
+      },
+      "V293": {
+        "description": ""
+      },
+      "V294": {
+        "description": ""
+      },
+      "V295": {
+        "description": ""
+      },
+      "V296": {
+        "description": ""
+      },
+      "V297": {
+        "description": ""
+      },
+      "V298": {
+        "description": ""
+      },
+      "V299": {
+        "description": ""
+      },
+      "V3": {
+        "description": ""
+      },
+      "V30": {
+        "description": ""
+      },
+      "V300": {
+        "description": ""
+      },
+      "V301": {
+        "description": ""
+      },
+      "V302": {
+        "description": ""
+      },
+      "V303": {
+        "description": ""
+      },
+      "V304": {
+        "description": ""
+      },
+      "V305": {
+        "description": ""
+      },
+      "V306": {
+        "description": ""
+      },
+      "V307": {
+        "description": ""
+      },
+      "V308": {
+        "description": ""
+      },
+      "V309": {
+        "description": ""
+      },
+      "V31": {
+        "description": ""
+      },
+      "V310": {
+        "description": ""
+      },
+      "V311": {
+        "description": ""
+      },
+      "V312": {
+        "description": ""
+      },
+      "V313": {
+        "description": ""
+      },
+      "V314": {
+        "description": ""
+      },
+      "V315": {
+        "description": ""
+      },
+      "V316": {
+        "description": ""
+      },
+      "V317": {
+        "description": ""
+      },
+      "V318": {
+        "description": ""
+      },
+      "V319": {
+        "description": ""
+      },
+      "V32": {
+        "description": ""
+      },
+      "V320": {
+        "description": ""
+      },
+      "V321": {
+        "description": ""
+      },
+      "V322": {
+        "description": ""
+      },
+      "V323": {
+        "description": ""
+      },
+      "V324": {
+        "description": ""
+      },
+      "V325": {
+        "description": ""
+      },
+      "V326": {
+        "description": ""
+      },
+      "V327": {
+        "description": ""
+      },
+      "V328": {
+        "description": ""
+      },
+      "V329": {
+        "description": ""
+      },
+      "V33": {
+        "description": ""
+      },
+      "V330": {
+        "description": ""
+      },
+      "V331": {
+        "description": ""
+      },
+      "V332": {
+        "description": ""
+      },
+      "V333": {
+        "description": ""
+      },
+      "V334": {
+        "description": ""
+      },
+      "V335": {
+        "description": ""
+      },
+      "V336": {
+        "description": ""
+      },
+      "V337": {
+        "description": ""
+      },
+      "V338": {
+        "description": ""
+      },
+      "V339": {
+        "description": ""
+      },
+      "V34": {
+        "description": ""
+      },
+      "V35": {
+        "description": ""
+      },
+      "V36": {
+        "description": ""
+      },
+      "V37": {
+        "description": ""
+      },
+      "V38": {
+        "description": ""
+      },
+      "V39": {
+        "description": ""
+      },
+      "V4": {
+        "description": ""
+      },
+      "V40": {
+        "description": ""
+      },
+      "V41": {
+        "description": ""
+      },
+      "V42": {
+        "description": ""
+      },
+      "V43": {
+        "description": ""
+      },
+      "V44": {
+        "description": ""
+      },
+      "V45": {
+        "description": ""
+      },
+      "V46": {
+        "description": ""
+      },
+      "V47": {
+        "description": ""
+      },
+      "V48": {
+        "description": ""
+      },
+      "V49": {
+        "description": ""
+      },
+      "V5": {
+        "description": ""
+      },
+      "V50": {
+        "description": ""
+      },
+      "V51": {
+        "description": ""
+      },
+      "V52": {
+        "description": ""
+      },
+      "V53": {
+        "description": ""
+      },
+      "V54": {
+        "description": ""
+      },
+      "V55": {
+        "description": ""
+      },
+      "V56": {
+        "description": ""
+      },
+      "V57": {
+        "description": ""
+      },
+      "V58": {
+        "description": ""
+      },
+      "V59": {
+        "description": ""
+      },
+      "V6": {
+        "description": ""
+      },
+      "V60": {
+        "description": ""
+      },
+      "V61": {
+        "description": ""
+      },
+      "V62": {
+        "description": ""
+      },
+      "V63": {
+        "description": ""
+      },
+      "V64": {
+        "description": ""
+      },
+      "V65": {
+        "description": ""
+      },
+      "V66": {
+        "description": ""
+      },
+      "V67": {
+        "description": ""
+      },
+      "V68": {
+        "description": ""
+      },
+      "V69": {
+        "description": ""
+      },
+      "V7": {
+        "description": ""
+      },
+      "V70": {
+        "description": ""
+      },
+      "V71": {
+        "description": ""
+      },
+      "V72": {
+        "description": ""
+      },
+      "V73": {
+        "description": ""
+      },
+      "V74": {
+        "description": ""
+      },
+      "V75": {
+        "description": ""
+      },
+      "V76": {
+        "description": ""
+      },
+      "V77": {
+        "description": ""
+      },
+      "V78": {
+        "description": ""
+      },
+      "V79": {
+        "description": ""
+      },
+      "V8": {
+        "description": ""
+      },
+      "V80": {
+        "description": ""
+      },
+      "V81": {
+        "description": ""
+      },
+      "V82": {
+        "description": ""
+      },
+      "V83": {
+        "description": ""
+      },
+      "V84": {
+        "description": ""
+      },
+      "V85": {
+        "description": ""
+      },
+      "V86": {
+        "description": ""
+      },
+      "V87": {
+        "description": ""
+      },
+      "V88": {
+        "description": ""
+      },
+      "V89": {
+        "description": ""
+      },
+      "V9": {
+        "description": ""
+      },
+      "V90": {
+        "description": ""
+      },
+      "V91": {
+        "description": ""
+      },
+      "V92": {
+        "description": ""
+      },
+      "V93": {
+        "description": ""
+      },
+      "V94": {
+        "description": ""
+      },
+      "V95": {
+        "description": ""
+      },
+      "V96": {
+        "description": ""
+      },
+      "V97": {
+        "description": ""
+      },
+      "V98": {
+        "description": ""
+      },
+      "V99": {
+        "description": ""
+      },
+      "addr1": {
+        "description": ""
+      },
+      "addr2": {
+        "description": ""
+      },
+      "card1": {
+        "description": ""
+      },
+      "card2": {
+        "description": ""
+      },
+      "card3": {
+        "description": ""
+      },
+      "card4": {
+        "description": ""
+      },
+      "card5": {
+        "description": ""
+      },
+      "card6": {
+        "description": ""
+      },
+      "dist1": {
+        "description": ""
+      },
+      "dist2": {
+        "description": ""
+      },
+      "isFraud": {
+        "description": ""
+      }
+    },
+    "great_expectations.__version__": "0.11.8",
+    "notes": {
+      "content": [
+        "#### This is an _example_ suite\n\n- This suite was made by quickly glancing at 1000 rows of your data.\n- This is **not a production suite**. It is meant to show examples of expectations.\n- Because this suite was auto-generated using a very basic profiler that does not know your data like you do, many of the expectations may not be meaningful.\n"
+      ],
+      "format": "markdown"
+    }
+  }
+}
